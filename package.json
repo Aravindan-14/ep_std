@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "nodemon backend/app.js"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18",
+    "expose-loader": "^4.1.0",
+    "nuxt": "^3.6.1"
+  },
+  "dependencies": {
+    "@nuxt-alt/http": "^1.6.9",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.3",
+    "nodemailer": "^6.9.7",
+    "nodemon": "^3.0.1",
+    "sqlstring": "^2.3.3"
+  }
+}
